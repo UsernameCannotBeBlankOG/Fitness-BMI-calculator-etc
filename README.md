@@ -7,4 +7,4 @@
 ---
 
 ## 📖 О проекте
-original s Lamkova delal, no s dobavleniem kalkulatora
+original by Alexander Lamkov, no s dobavleniem kalkulatora
