@@ -1076,6 +1076,10 @@ input[type=number] {
   padding-bottom: 160px;
 }
 
+.footer-main-inner {
+  overflow-x: hidden;
+}
+
 .footer-header,
 .footer-body {
   display: grid;
@@ -1176,6 +1180,15 @@ input[type=number] {
 
 .footer-copyright {
   font-size: 14px;
+}
+
+.footer-description,
+.footer-about,
+.footer-address,
+.footer-contacts-link,
+.footer-description a {
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 @media (max-width: 1919px) {
@@ -1421,5 +1434,11 @@ input[type=number] {
 
   .footer-subscribe:not(:last-child) {
     margin-bottom: 40px;
+  }
+
+  .footer-logo-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
   }
 }
