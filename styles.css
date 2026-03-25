@@ -1095,8 +1095,9 @@ input[type=number] {
 }
 
 .footer-logo-image {
+  width: 100%;
+  max-width: 200px;
   height: auto;
-  flex-shrink: 0;
 }
 
 .footer-description {
